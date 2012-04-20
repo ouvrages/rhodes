@@ -31,7 +31,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     if ([[Rhodes sharedInstance] isRotationLocked])
-        return interfaceOrientation == UIInterfaceOrientationPortrait;
+        return interfaceOrientation == UIInterfaceOrientationLandscapeLeft;
 	return YES;
 }
 
